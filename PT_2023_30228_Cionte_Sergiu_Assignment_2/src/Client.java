@@ -35,7 +35,7 @@ public  class Client  {
 	
 
 	public String toString() {
-		return "Client [id=" + id + ", arrivalTime=" + arrivalTime + ", serviceTime=" + serviceTime + "]";
+		return "(" + id + "," + arrivalTime + "," + serviceTime + ")";
 	}
 
 

@@ -6,6 +6,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 public class SimulationFrame extends JFrame {
@@ -24,8 +26,10 @@ public class SimulationFrame extends JFrame {
 	private JTextField minimumArrivalTime;
 	private JLabel maxArrivalTime;
 	private JTextField maximumArrivalTime;
-	private JList<Server>cozi;
+	//private JList<Server>cozi;
 	public JButton start;
+	private JTextArea afis;
+	private JScrollPane scrollPane;
 	
 
 	public void createFrame() {
@@ -33,13 +37,31 @@ public class SimulationFrame extends JFrame {
 
 		frame.setSize(1920, 1080);
 		//model=new DefaultListModel();
+		//scrollPane=new JScrollPane();
 		
 		start=new JButton("START");
-		start.setBounds(1000,100,100,100);
+		start.setBounds(200,100,100,100);
 		
-		cozi=new JList<Server>();
-		cozi.setBounds(1000,250,400,500);
-
+		//cozi=new JList<Server>();
+		//cozi.setBounds(1000,250,400,500)
+		//afis=new JTextArea(10,10);
+		//afis.setBounds(1000,250,400,500);
+		//scrollPane=new JScrollPane();
+		//scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		//afis.setLineWrap(true);
+		//scrollPane=new JScrollPane(afis,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		//afis=new JTextArea();
+		//afis.setBounds(1000,250,400,500);
+		//scrollPane=new JScrollPane(afis,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		//scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		//scrollPane.setBounds(1380, 250, 20, 500);
+		//scrollPane.getViewport().add(afis);
+		//scrollPane=new JScrollPane(afis);
+		afis=new JTextArea();
+		afis.setBounds(1000,250,400,500);
+		scrollPane=new JScrollPane(afis,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		scrollPane.setBounds(1000, 250, 400, 500);
+		frame.add(scrollPane);
 		 noClients = new JLabel("Numar Clienti");
 		noClients.setBounds(200, 145, 300, 150);
 
@@ -102,9 +124,15 @@ public class SimulationFrame extends JFrame {
 		frame.add(maxArrivalTime);
 		frame.add(minimumArrivalTime);
 		frame.add(minArrivalTime);
-		frame.add(cozi);
+		//frame.add(cozi);
+		//frame.add(scrollPane);
+		//frame.add(afis);
 		frame.setVisible(true);
 		frame.add(start);
+			//frame.add(scrollPane);
+			frame.revalidate();
+			frame.repaint();
+		//frame.pack();
 		
 	
 		SimulationFrame fr=this;
@@ -127,6 +155,16 @@ public class SimulationFrame extends JFrame {
 
 	public JLabel getNoClients() {
 		return noClients;
+	}
+	
+	
+
+	public JTextArea getAfis() {
+		return afis;
+	}
+
+	public void setAfis(JTextArea afis) {
+		this.afis = afis;
 	}
 
 	public void setNoClients(JLabel noClients) {
@@ -248,6 +286,15 @@ public class SimulationFrame extends JFrame {
 		this.maximumArrivalTime = maximumArrivalTime;
 	}
 	
+	public String getTextArea() {
+		String s=afis.getText();
+		return s;
+		
+	}
+	
+	public void setTextArea(String s) {
+		afis.setText(afis.getText()+s);
+	}
 	
 	public static void main(String[] args) {
 		SimulationFrame frame=new SimulationFrame();

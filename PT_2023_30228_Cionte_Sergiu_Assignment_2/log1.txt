@@ -1,0 +1,241 @@
+TIME0
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME1
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME2
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME3
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME4
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME5
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME6
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME7
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME8
+Queue 0:
+Queue 1:
+Waiting clients(0,9,3)(3,19,2)(2,22,3)(1,24,3)
+TIME9
+Queue 0:(0,9,2)
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME10
+Queue 0:(0,9,1)
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME11
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME12
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME13
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME14
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME15
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME16
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME17
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME18
+Queue 0:
+Queue 1:
+Waiting clients(3,19,2)(2,22,3)(1,24,3)
+TIME19
+Queue 0:(3,19,1)
+Queue 1:
+Waiting clients(2,22,3)(1,24,3)
+TIME20
+Queue 0:
+Queue 1:
+Waiting clients(2,22,3)(1,24,3)
+TIME21
+Queue 0:
+Queue 1:
+Waiting clients(2,22,3)(1,24,3)
+TIME22
+Queue 0:(2,22,2)
+Queue 1:
+Waiting clients(1,24,3)
+TIME23
+Queue 0:(2,22,1)
+Queue 1:
+Waiting clients(1,24,3)
+TIME24
+Queue 0:
+Queue 1:(1,24,2)
+Waiting clients
+TIME25
+Queue 0:
+Queue 1:(1,24,1)
+Waiting clients
+TIME26
+Queue 0:
+Queue 1:
+Waiting clients
+TIME27
+Queue 0:
+Queue 1:
+Waiting clients
+TIME28
+Queue 0:
+Queue 1:
+Waiting clients
+TIME29
+Queue 0:
+Queue 1:
+Waiting clients
+TIME30
+Queue 0:
+Queue 1:
+Waiting clients
+TIME31
+Queue 0:
+Queue 1:
+Waiting clients
+TIME32
+Queue 0:
+Queue 1:
+Waiting clients
+TIME33
+Queue 0:
+Queue 1:
+Waiting clients
+TIME34
+Queue 0:
+Queue 1:
+Waiting clients
+TIME35
+Queue 0:
+Queue 1:
+Waiting clients
+TIME36
+Queue 0:
+Queue 1:
+Waiting clients
+TIME37
+Queue 0:
+Queue 1:
+Waiting clients
+TIME38
+Queue 0:
+Queue 1:
+Waiting clients
+TIME39
+Queue 0:
+Queue 1:
+Waiting clients
+TIME40
+Queue 0:
+Queue 1:
+Waiting clients
+TIME41
+Queue 0:
+Queue 1:
+Waiting clients
+TIME42
+Queue 0:
+Queue 1:
+Waiting clients
+TIME43
+Queue 0:
+Queue 1:
+Waiting clients
+TIME44
+Queue 0:
+Queue 1:
+Waiting clients
+TIME45
+Queue 0:
+Queue 1:
+Waiting clients
+TIME46
+Queue 0:
+Queue 1:
+Waiting clients
+TIME47
+Queue 0:
+Queue 1:
+Waiting clients
+TIME48
+Queue 0:
+Queue 1:
+Waiting clients
+TIME49
+Queue 0:
+Queue 1:
+Waiting clients
+TIME50
+Queue 0:
+Queue 1:
+Waiting clients
+TIME51
+Queue 0:
+Queue 1:
+Waiting clients
+TIME52
+Queue 0:
+Queue 1:
+Waiting clients
+TIME53
+Queue 0:
+Queue 1:
+Waiting clients
+TIME54
+Queue 0:
+Queue 1:
+Waiting clients
+TIME55
+Queue 0:
+Queue 1:
+Waiting clients
+TIME56
+Queue 0:
+Queue 1:
+Waiting clients
+TIME57
+Queue 0:
+Queue 1:
+Waiting clients
+TIME58
+Queue 0:
+Queue 1:
+Waiting clients
+TIME59
+Queue 0:
+Queue 1:
+Waiting clients
+2.7521.25
